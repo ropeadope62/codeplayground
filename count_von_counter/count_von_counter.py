@@ -1,7 +1,7 @@
 #Blackjack simple single deck counter 
 #Version 0.1
-#Author: Slurms Mackenzie
-
+#Author: ropeadope62
+#Git: https://github.com/ropeadope62
 print("""
                  /######/\/
                /##########\/
