@@ -51,8 +51,4 @@ print(f"Welcome to The Count Von Count Counter\n At any point, enter 'R' instead
 
 while cards_total > 0:
     card = input(f"Enter the dealt cards one by one. Possible cards: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A\n CURRENT RUNNING COUNT: {running_count}\n CARDS REMAINING IN DECK: {cards_total}\n PREVIOUS 5 CARDS: {already_counted[-5:]}\n ")
-<<<<<<< HEAD
     countcard(card)
-=======
-    countcard(card)
->>>>>>> 16e935a41b7d229d9233018ececb68865975d2b5
