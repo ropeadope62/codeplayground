@@ -1,6 +1,6 @@
 #Blackjack simple single deck counter 
 #Version 0.1
-#Author: Slurms Mackenzie
+#Author: ropeadope
 
 print("""
                  /######/\/
@@ -26,7 +26,7 @@ print("""
  /###### THE COUNT VON COUNTER #########\/
 /###################/####################\/ \n
 """)
-printascii(vamp)
+
 print("Another stupid app made by ropeadope62 ")
 cards_total = 52
 running_count = 0
@@ -50,5 +50,5 @@ def countcard(card):
 print(f"Welcome to The Count Von Count Counter\n At any point, enter 'R' instead of the card played to reset the count.")
 
 while cards_total > 0:
-    card = input(f"Enter the dealt cards one by one. Possible cards: 2, 3, 4, 5, 6, 7, 8, 9, 19, J, Q, K, A\n CURRENT RUNNING COUNT: {running_count}\n CARDS REMAINING IN DECK: {cards_total}\n PREVIOUS 5 CARDS: {already_counted[-5:]}\n ")
+    card = input(f"Enter the dealt cards one by one. Possible cards: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A\n CURRENT RUNNING COUNT: {running_count}\n CARDS REMAINING IN DECK: {cards_total}\n PREVIOUS 5 CARDS: {already_counted[-5:]}\n ")
     countcard(card)
