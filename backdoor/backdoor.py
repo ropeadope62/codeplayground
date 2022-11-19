@@ -1,4 +1,4 @@
-# Basic backdoor to send windows commands and plant files on a win host
+# Basic backdoor to send windows commands and upload/download files against a windows host
 # author: ropeadope62 
 
 import socket
