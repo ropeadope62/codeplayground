@@ -1,4 +1,5 @@
 #Blackjack simple single deck counter 
+#Doesnt matter how many decks are in the shoe, as long as you establish count on the start of a new deck
 #Version 0.1
 #Author: ropeadope62
 
