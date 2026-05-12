@@ -1,0 +1,42 @@
+# ── Credentials & secrets ───────────────────────────────────────────
+config/credentials.json
+config/token.json
+config/spotify_credentials.json
+config/spotify_token.json
+config/sse_token.txt
+config/devices.json
+.env
+
+# ── Personal data ───────────────────────────────────────────────────
+notes/notes.json
+notes/reminders.json
+notes/daily/*.md
+notes/digests/*.md
+logs/focus_state.json
+
+# ── ChromaDB vector store (local, rebuild on first run) ─────────────
+data/chroma/*.sqlite3
+data/chroma/*/
+
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# ── Virtual env (if created at repo root) ───────────────────────────
+Scripts/
+Include/
+Lib/
+pyvenv.cfg
+share/
+
+# ── OS / editor ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

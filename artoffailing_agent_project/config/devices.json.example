@@ -1,0 +1,26 @@
+{
+  "_comment": "Homelab device inventory. Copy to devices.json and fill in your own IPs/MACs.",
+
+  "_group_infrastructure": "── Infrastructure ──────────────────────────",
+  "router": {
+    "ip": "192.168.1.1",
+    "description": "Router / gateway"
+  },
+  "nas": {
+    "ip": "192.168.1.x",
+    "mac": "xx:xx:xx:xx:xx:xx",
+    "description": "NAS — Fixed IP"
+  },
+
+  "_group_computers": "── Computers ──────────────────────────────",
+  "desktop": {
+    "ip": "192.168.1.x",
+    "mac": "xx:xx:xx:xx:xx:xx",
+    "description": "Desktop workstation"
+  },
+  "laptop": {
+    "ip": "dhcp",
+    "mac": "xx:xx:xx:xx:xx:xx",
+    "description": "Laptop"
+  }
+}
